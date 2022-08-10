@@ -1,0 +1,100 @@
+* {
+    font-family: 'Outfit', sans-serif;
+}
+/* App */
+.container {
+    width: 50%;
+    min-width: 200px;
+    background-color: rgb(18, 22, 29);
+    color: white;
+    margin: 0 auto;
+    border-radius: .5em;
+}
+
+/* Info */
+.info_container {
+    text-align: center;
+}
+.info_img {
+    border-radius: .5em .5em 0 0;
+    max-width: 100%;
+    max-height: 100%;
+}
+.info_name {
+    margin-top: 1em;
+}
+
+.info_job-title {
+    margin-top: 0.5em;
+    color: rgb(255, 176, 0);
+}
+
+.info_website {
+    text-decoration: none;
+    color: white;
+}
+.info_website > p {
+    margin-top: 0.5em;
+}
+.info_buttons {
+    padding-top: 1em;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.info_button {
+    margin: 0;
+    width: 35%;
+    height: 1.5em;
+    background: white;
+    padding: .5em;
+    color: black;
+    text-decoration: none;
+    border-radius: 0.5em;
+    line-height: 1.5em;
+    font-weight: 500;
+    font-size: 1.1em;
+}
+
+/* About */
+.about_container {
+    width: 80%;
+    padding: 0 10%;
+    margin-top: 1.5em;
+}
+.about_title {
+
+}
+.about_text {
+    margin-top: .5em;
+}
+/* Interests */
+.interests_container {
+    width: 80%;
+    padding: 0 10%;
+    margin-top: 1.5em;
+}
+.interests_title {
+
+}
+.interests_text {
+    margin-top: .5em;
+}
+/* Footer */
+.footer_container {
+    margin-top: 1.5em;
+    background-color: rgb(14, 15, 15);
+    border-radius: 0 0 .5em .5em;
+}
+.footer_buttons {
+    padding: 1em 0;
+    display: flex;
+    justify-content: space-evenly;
+}
+.footer_buttons > a {
+    width: 4em;
+    margin: 0;
+}
+.footer_button {
+    width: 100%;
+}
