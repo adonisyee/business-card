@@ -1,7 +1,6 @@
 import React from "react";
 import "../css/styles.css";
 import profilePhoto from "../img/IMG_3096.jpg"
-import emailIcon from "../img/email.png"
 
 export default function Info() {
     return (
